@@ -1,8 +1,7 @@
 # Playwright Sonar Converter
 
 [![npm version](https://badge.fury.io/js/playwright-sonar-converter.svg)](https://badge.fury.io/js/playwright-sonar-converter)
-![Node.js CI](https://github.com/yourusername/playwright-sonar-converter/workflows/Node.js%20CI/badge.svg)
-
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 A TypeScript module for converting Playwright test execution reports from JUnit XML format to a generic test data format for SonarQube.
 
 ## Installation
@@ -18,6 +17,4 @@ import { convertPlaywrightToSonar, TestStatus } from 'playwright-sonar-converter
 
 const reportPath = '/path/to/reports';
 convertPlaywrightToSonar(reportPath);
-
-
 ```
