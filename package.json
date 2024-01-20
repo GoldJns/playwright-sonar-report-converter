@@ -1,6 +1,6 @@
 {
   "name": "playwright-sonar-report-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converting playwright test execution report to readable sonar report",
   "main": "index.js",
   "scripts": {
