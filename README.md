@@ -6,7 +6,7 @@ WIP!
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-A TypeScript module for converting Playwright test execution reports from JUnit XML format to a generic test data format for SonarQube.
+A module for converting Playwright test execution reports from JUnit XML format to [GenericTestData](https://docs.sonarsource.com/sonarqube/9.8/analyzing-source-code/test-coverage/generic-test-data/#generic-test-execution)format for SonarQube.
 
 ## Installation
 
@@ -22,3 +22,4 @@ import { convertPlaywrightToSonar, TestStatus } from 'playwright-sonar-converter
 const reportPath = '/path/to/reports';
 convertPlaywrightToSonar(reportPath);
 ```
+
